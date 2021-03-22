@@ -1,0 +1,12 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: samplewebapp
+spec:
+  template:
+    spec:
+      containers:
+      - name: samplewebapp
+        env:
+        - name: ENVIRONMENT
+          value: prod

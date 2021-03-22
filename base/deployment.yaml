@@ -1,0 +1,21 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: samplewebapp
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  progressDeadlineSeconds: 30
+  selector:
+    matchLabels:
+      app: samplewebapp
+  template:
+    metadata:
+      labels:
+        app: samplewebapp
+    spec:
+      containers:
+      - image: 633834615594.dkr.ecr.us-west-2.amazonaws.com/samplewebapp:f27903964ba8e31ad89c31379e300a35fe1632a3
+        name: samplewebapp
+        ports:
+        - containerPort: 8080

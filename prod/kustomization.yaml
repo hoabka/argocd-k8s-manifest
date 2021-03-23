@@ -9,4 +9,10 @@ patchesStrategicMerge:
 
 images:
 - name: 633834615594.dkr.ecr.us-west-2.amazonaws.com/samplewebapp
+<<<<<<< HEAD
   newTag: 87501048f59a337d56fab94bc6e3103f700399bd
+=======
+  newTag: 5127190c6c727c3935406c9db7b72b38e94ae7dd
+resources:
+- ../base
+>>>>>>> bf789776a0338b18002b445a7278f010a1d1540f

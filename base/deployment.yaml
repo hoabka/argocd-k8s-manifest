@@ -15,7 +15,7 @@ spec:
         app: samplewebapp
     spec:
       containers:
-      - image: 633834615594.dkr.ecr.us-west-2.amazonaws.com/samplewebapp:87501048f59a337d56fab94bc6e3103f700399bd
+      - image: gcr.io/heptio-images/ks-guestbook-demo:0.1
         name: samplewebapp
         ports:
         - containerPort: 8080

@@ -4,6 +4,6 @@ patchesStrategicMerge:
 - ./deployment-patch.yaml
 images:
 - name: 633834615594.dkr.ecr.us-west-2.amazonaws.com/samplewebapp
-  newTag: c2d7b73f75cefcfddf86b034147b7628a979d620
+  newTag: 5127190c6c727c3935406c9db7b72b38e94ae7dd
 resources:
 - ../base

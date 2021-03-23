@@ -3,7 +3,7 @@ kind: Kustomization
 patchesStrategicMerge:
 - ./deployment-patch.yaml
 images:
-- name: 633834615594.dkr.ecr.us-west-2.amazonaws.com/samplewebapp
-  newTag: 87501048f59a337d56fab94bc6e3103f700399bd
+- name: gcr.io/heptio-images/ks-guestbook-demo
+  newTag: 0.1
 resources:
 - ../base

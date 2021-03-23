@@ -5,7 +5,5 @@ patchesStrategicMerge:
 images:
 - name: 633834615594.dkr.ecr.us-west-2.amazonaws.com/samplewebapp
   newTag: c2d7b73f75cefcfddf86b034147b7628a979d620
-- name: alexmt/argocd-demo
-  newTag: 3824e3ce01af4947d4375c2d8fb22159d12e5c04
 resources:
 - ../base

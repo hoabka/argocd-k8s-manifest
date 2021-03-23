@@ -15,7 +15,7 @@ spec:
         app: samplewebapp
     spec:
       containers:
-      - image: nginx:latest
+      - image: 633834615594.dkr.ecr.us-west-2.amazonaws.com/samplewebapp:87501048f59a337d56fab94bc6e3103f700399bd
         name: samplewebapp
         ports:
         - containerPort: 8080

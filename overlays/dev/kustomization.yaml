@@ -8,5 +8,6 @@ images:
   newTag: 27da5feac832f046e417dc48ff39ec3657ff43e2
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-bases:
+resources:
 - ../../base
+namePrefix: staging-

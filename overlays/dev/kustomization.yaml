@@ -5,7 +5,7 @@ patchesStrategicMerge:
 images:
 - name: 633834615594.dkr.ecr.us-west-2.amazonaws.com/samplewebapp
   newName: 633834615594.dkr.ecr.us-west-2.amazonaws.com/samplewebapp
-  newTag: 8537297df9f8beb2ed87f54dc0842fe49e3201dc
+  newTag: 539dbf850b621a2fa61e83ab9019ba59b5f7e84f
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
